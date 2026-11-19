@@ -1,0 +1,9 @@
+# 禁用内置的 workspace-dependencies 依赖查询工具，
+# 让 node / pnpm / python 全部从系统 PATH 解析。
+- id: workspace-dependencies
+  disabled: true
+
+# Office 技能改用系统 Python（config 为整体替换，此处只需保留该字段）。
+- id: skill-office
+  config:
+    pythonEnvironment: user

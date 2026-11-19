@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "系统运行时",
+    "description": "禁用内置 workspace-dependencies 工具，并让 Office 技能改用系统 Python，使 node、pnpm、python 全部从系统 PATH 解析。"
+  }
+}

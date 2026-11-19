@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "System runtime",
+    "description": "Disables the bundled workspace-dependencies tool and switches Office skills to the system Python, so node, pnpm and python all resolve from PATH."
+  }
+}
